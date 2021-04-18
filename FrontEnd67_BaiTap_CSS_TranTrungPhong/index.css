@@ -11,12 +11,20 @@ body {
 .header .header__content {
   background-color: #002147;
   color: #ffffff;
+  /* display: inline; */
 }
 .header .header__text {
-  display: flex;
-  justify-content: space-around;
+  /* display: flex;
+  justify-content: space-around; */
   height: 30px;
   line-height: 30px;
+  margin-left: 200px;
+}
+.clear {
+  clear: both;
+}
+.header__contact {
+  float: left;
 }
 .header .header__contact .material-icons,
 .fi-telephone {
@@ -29,6 +37,8 @@ body {
 }
 .header .header__apply {
   background-color: #e0c90f;
+  margin-left: 700px;
+  width: 100px;
   padding: 0px 10px 0;
   cursor: pointer;
   color: #030303;
@@ -36,4 +46,39 @@ body {
 }
 .header .header__contact span {
   padding-left: 5px;
+}
+.menu {
+  padding-left: 200px;
+}
+.menu .menu__title {
+  padding-left: 40px;
+  font-size: 40px;
+}
+
+.menu .menu__icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: #002147;
+  font-size: 20px;
+  text-align: center;
+  float: left;
+  margin-right: 10px;
+}
+.menu .menu__icon i {
+  color: #e0c90f;
+  line-height: 40px;
+}
+.menu .menu__mastery {
+  font-weight: bold;
+  padding-left: 10px;
+}
+.menu ul {
+  padding-left: 20px;
+}
+.menu ul li {
+  padding-left: 30px;
+  display: inline;
+  list-style: none;
+  margin: 0 10px;
 }
