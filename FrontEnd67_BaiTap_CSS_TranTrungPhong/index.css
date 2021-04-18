@@ -82,3 +82,32 @@ body {
   list-style: none;
   margin: 0 10px;
 }
+.carousel {
+  background-image: url("./images/2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.carousel .carousel__content {
+  margin: 0 60px 0 60px;
+}
+.carousel .carousel__item {
+  float: left;
+  width: 33%;
+  text-align: center;
+  padding: 60px;
+}
+.carousel .carousel__text {
+  padding: 40px;
+  background-color: white;
+}
+.carousel .carousel__button {
+  margin: 10px;
+  height: 30px;
+  width: 100px;
+  background: #e0c90f;
+  border: solid #e0c90f;
+}
+.carousel .carousel__text .material-icons {
+  color: #e0c90f;
+}
